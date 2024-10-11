@@ -1,0 +1,199 @@
+/* From Uiverse.io by vinodjangid07 */ 
+.contents{
+    float: left;
+    /* border: 1px solid; */
+    color: #020202;
+    /* text-align: center; */
+    display: block;
+    width: 50%;
+    padding: 10px 0;
+}
+.contents .title-ship{
+  text-align: center;
+  padding-top: 2%;
+}
+.content2 .ship-img img{
+  
+          padding-bottom: 20px;
+          height: 99%; 
+          width: 99%;
+          padding-top: 20px;
+}
+.contents .description-ship{
+  margin-left:5%;
+  margin-right: 3%;
+  line-height: 1.5;
+}
+.content2{
+  float: right;
+    /* border: 1px solid; */
+    color: #020202;
+    /* text-align: center; */
+    display: block;
+    width: 50%;
+    padding: 10px 0;
+}
+.content2 .title-security{
+  text-align: center;
+  padding-top: 2%;
+}
+.content2 .description-security{
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.loader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .truckWrapper {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: hidden;
+  }
+  /* truck upper body */
+  .truckBody {
+    width: 130px;
+    height: fit-content;
+    margin-bottom: 6px;
+    animation: motion 1s linear infinite;
+  }
+  /* truck suspension animation*/
+  @keyframes motion {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(3px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  /* truck's tires */
+  .truckTires {
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 15px;
+    position: absolute;
+    bottom: 0;
+  }
+  .truckTires svg {
+    width: 24px;
+  }
+  
+  .road {
+    width: 100%;
+    height: 1.5px;
+    background-color: #282828;
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    border-radius: 3px;
+  }
+  .road::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #282828;
+    right: -50%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 10px solid white;
+  }
+  .road::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #282828;
+    right: -65%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 4px solid white;
+  }
+  
+  .lampPost {
+    position: absolute;
+    bottom: 0;
+    right: -90%;
+    height: 90px;
+    animation: roadAnimation 1.4s linear infinite;
+  }
+  
+  @keyframes roadAnimation {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-350px);
+    }
+  }
+  
+
+  a.devvn_animation_zoom {
+    display: block;
+    background: #0a70f6;
+    position: fixed;
+    right: 20px;
+    top: 80%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    
+    z-index: 9999;
+    -webkit-animation: devvn_zoom 1.5s infinite linear;
+    -moz-animation: devvn_zoom 1.5s infinite linear;
+    -o-animation: devvn_zoom 1.5s infinite linear;
+    animation: devvn_zoom 1.0s infinite linear;
+    box-shadow: 0 0 0 0 #0971f6;
+}
+a.devvn_animation_zoom img {
+    width: 62px;
+    height: 62px;
+    /* -webkit-animation: calltrap_spin 3s infinite linear;
+    -moz-animation: calltrap_spin 3s infinite linear;
+    -o-animation: calltrap_spin 3s infinite linear;
+    animation: calltrap_spin 3s infinite linear */
+}
+
+
+/* css for page tintuc */
+.mainsuckhoe{
+  padding-left: 15%;
+  padding-right: 18%;
+}
+.mainsuckhoe h2{
+  color:#0a671a;
+}
+.mainsuckhoe a{
+  color: #367fa9;
+}
+.mainsuckhoe .tintucmain{
+  color: #0a671a;
+  padding-top: 4%;
+  border-bottom: 2px solid #0a671a;
+
+  
+}
+.mainsuckhoe  .tinngay{
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+.mainsuckhoe p{
+    gap: 15px;
+    
+}

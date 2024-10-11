@@ -1,0 +1,58 @@
+/* BREAK POINT */
+
+@media (max-width: 500px)
+{
+    .table{
+        --bs-table-bg: #fffefe;
+        /* background-color: #f9f9f9; */
+    }
+    /* css table */
+    .card-body{
+        overflow: scroll;
+    }
+    
+   
+    .card.card-outline{
+        display: contents;
+    }
+    .table > thead{
+        display: none;
+    }
+    .table > tbody > tr{
+        margin-bottom: 1rem;
+        /* background-color: blue; */
+    
+       
+    }
+    .table > tbody > tr,
+    .table > tbody > tr > td{
+        display: inline-block;
+        width: 100%;
+       
+
+    }
+    .table > tbody > tr > td{
+        text-align: right;
+        position: relative;
+        border: 1px solid #333;
+  
+        float: right;
+        
+    }
+    .table > tbody > tr > td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        
+        float: left;
+       
+    }
+
+    tr:nth-child(even) {
+        --bs-table-bg:#5e5e5e;
+        /* background-color: #a32121 !important; */
+        --bs-table-color: #fffefe;
+    }
+
+
+}

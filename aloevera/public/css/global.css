@@ -1,0 +1,253 @@
+:root{
+    --text-color: #333;
+    --background-color-body:#eeeeee;
+    --padding-text:5px 0;
+    /* img */
+    --img-width-height:512px;
+    --img-width-height-list-thumbnail:128px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    font-size: 62.5%;
+    
+}
+body {
+    background-image: url("../images/nend2.jpg");
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    background-color: var(--background-color-body);
+   
+}
+/* button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+} */
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* .container-gobal{
+    padding: 0 15%;
+}
+.container{
+    width: 100%;
+   display: inline-block;
+} */
+.p-relative{
+    position: relative;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.heght-full-screen{
+    height: 100vh;
+}
+.modal{
+    width: 30%;
+    height: 60%;
+    background-color: #ffffffd9;
+    position: fixed;
+    display: block;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    overflow: auto;
+    text-align: -webkit-center;
+    box-shadow:  0 4px 8px #120707;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.titlea .title{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-size: 36px;
+}
+
+/* css cho tuanthanh */
+
+
+.tuan{
+    background-color: #111110;
+    width: 100%;
+    color: #efe53f;
+}
+.tuan .thanh{
+    display: flex;
+    justify-content: center;
+}
+
+.tuan .thanh .thanh0{
+        display: flex;
+        width: 100%;
+        height: 120px;
+        padding-left: 15%;
+}
+
+.tuan .thanh .thanh0 a{
+    margin-top: 10%;
+}
+
+.tuan .thanh .thanh1{
+   
+  
+    float: right;
+    position: relative;
+    width: 100%;
+    bottom: 9px;
+}
+.tuan .thanh .thanh1 ul{
+    display: flex;
+    position: absolute;
+    bottom: 9px;
+    width: 100%;
+}
+.tuan .thanh .thanh1 ul a{
+    color: #efe53f;
+    display: flex;
+    justify-content: left;
+    padding: 0 17% 0 0 ;
+    }
+/* css for maintuan */
+
+.maintuan{
+    color:#eeeeee;
+    line-height: 1.5;
+ }
+.main1{
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+    
+ }
+ .maintuan .main1 .ten1 {
+    padding-top: 20%;
+    padding-left: 24%;
+    font-size: 70px;
+    color:#eeeeee;
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;
+ }
+ .maintuan .main1 .ten1 a img{
+        margin-bottom: 30px;
+ }
+ .maintuan .main1 .ten2 a{
+    text-align: center;
+    padding-left: 27%;
+    font-size: 20px;
+ }
+ .maintuan .main1 ul{
+  
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    padding-left: 16%;
+ }
+ .maintuan .main1 ul a{
+    display: flex;
+    justify-content: left;
+    padding: 0 1% 0 0 ;
+    }
+ }
+ .maintuan .main1 a.ten3 {
+    padding-top: 8%;
+    display: block;
+    padding-left: 35%;
+
+}
+.maintuan .main1 a.ten3 img {
+    width: 50px;
+    height: 46px;
+}
+.maintuan .main2{
+    float:right;
+    display: block;
+    width: 50%;
+    height:  100px;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+.maintuan .main2 .ten4 {
+    text-align: center;
+    padding-right: 30%;
+    padding-top: 25%;
+    font-size: 30px;
+}
+.maintuan .main2 .ten4 a{
+    
+    text-shadow: 0.1px 0.1px 5.4px red;
+}
+.maintuan .main2 .ten5{
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.maintuan .main2 .ten5 ul li{
+    text-shadow: 0.1px 0.1px 5.0px rgb(255, 64, 0);
+}
+/* .maintuan .main2 .ten4 img{
+    background-image: url("../images/acc2.png");
+    color: #0d91f4;
+    filter: drop-shadow(0.10em 0.10em 9.2em);
+    width: 500px;
+    height: 520px;
+} */
+
+@media (max-width: 740px)
+{
+    .main1{
+        width: 100%;
+    }
+    .maintuan .main1 .ten1 a{
+        text-align: center;
+    }
+    .maintuan .main1 .ten2{
+        text-align: center;
+    }
+    .maintuan .main1 .ten2 a{
+        
+        padding-left: 1%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .maintuan .main2{
+        width: 100%;
+    }
+    .tuan .thanh .thanh1 ul {
+        /* display: flex; */
+        position: absolute;
+        bottom: 9px;
+        width: 100%;
+
+    
+}

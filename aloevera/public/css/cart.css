@@ -1,0 +1,77 @@
+.demo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.demo .login {
+    margin-top: 5px;
+    position: relative;
+    background: #353427;
+    backdrop-filter: blur(15px);
+    border: 1px solid red;
+    border-bottom: 1px solid yellow;
+    border-right: 1px solid yellow;
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+
+
+}
+.demo .login h2{
+    position: relative; 
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 10px;   
+    margin-top: 5%;
+}
+.demo .login .inputbox input{
+    
+
+    position: relative;
+    width: 70%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 1,25rem;
+    color: red;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    margin-bottom: 30px;
+}
+.demo .login .inputbox ::placeholder {
+    color: #8f2c24;
+}
+.demo .login .inputbox #btn{
+    position: relative;
+    border: none;
+    outline: none;
+    background: #4a4f3e;
+    color: red;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.demo .login p{
+    color: #fff;
+}
+.demo .login .group{
+    margin-bottom: 5%;
+}
+.demo .login .group .loginf{
+    float: left;
+    padding-left: 30%;
+}
+.demo .login .group .loging{
+    float: right;
+    padding-right: 30%;
+}

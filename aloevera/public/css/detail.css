@@ -1,0 +1,187 @@
+.product-info{
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #8b8a8a;
+    padding-bottom: 15px;
+    background-image: url("../images/backg.jpg");
+    background-attachment: fixed;
+}
+/* css container product-info left */
+.product-info .product-info_img{
+    padding-left: 12%;
+    width: 48%;
+    float: left;
+    margin: 30px 2% 10px 0;
+
+}
+.product-info .product-info_img .product-info_imgbig{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.product-info .product-info_img .product-info_imgbig img{
+    width: var(--img-width-height);
+    height: var(--img-width-height);
+}
+.product-info .product-info_img .product-info_imglist{
+    margin-bottom: 60px;
+}
+.product-info_imglist .item{
+    margin-bottom: 60px;
+}
+.content-slider li{
+    /* background-color: #ed3020; */
+    text-align: center;
+    color: #FFF;
+}
+.content-slider h3 {
+    margin: 0;
+    padding: 70px 0;
+}
+.product-info_imglist{
+    width: 541px;
+}
+.product-info .product-info_img .product-info_imglist .attention{
+    
+    padding: 20px 20px;
+    background-color: rgb(189 50 46);
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    right: 66%;
+    border-radius: 10px;
+}
+.product-info .product-info_img .product-info_imglist .imglist-item{
+    margin-right: 5px;
+}
+.product-info .product-info_img .product-info_imglist .imglist-item.active{
+    border: 1px solid #948989;
+}
+.product-info .product-info_img .product-info_imglist img{
+    width: var(--img-width-height-list-thumbnail);
+    height: var(--img-width-height-list-thumbnail);
+}
+/* css container product-info right */
+.product-info .product-info_iteminfo{
+    width: 48%;
+    float: right;
+    margin: 70px 0;
+    line-height: 1.0;
+
+    
+}
+.product-info .product-info_iteminfo .item-name{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0a671a;
+    right: 0px;
+    width: 80%;
+    padding: 10px;
+}
+.product-info .product-info_iteminfo .item-code{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.product-info .product-info_iteminfo .item-description_most{
+    
+    right: 0px;
+    font-size: 18px;
+    width: 80%;
+    /* border: 1px solid black; */
+    padding: 10px;
+
+ 
+}
+.product-info .product-info_iteminfo .item-volume{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+.product-info .product-info_iteminfo .sale{
+    text-align: center;
+    color: red;
+   
+}
+.product-info .product-info_iteminfo .item-price{
+    font-size: 40px;
+    padding: 10px;
+    color: #0a671a;
+}
+.product-info .product-info_iteminfo .item-price2{
+    font-size: 40px;
+    padding: 10px;
+    color: #f26209;
+}
+.product-info .product-info_iteminfo .item-price2 a{
+    color: white;
+    background-color: red ;
+    padding: 3px 15px;
+}
+
+.product-info .product-info_iteminfo .item-discount{
+    font-size: 40px;
+    padding: 10px;
+    color:#0a671a;
+}
+/* css container description */
+.product-description{
+    background-image: url("../images/backg.jpg");
+    background-attachment: fixed;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 1.8;
+}
+.product-description .title{
+    font-size: 19px;
+    font-weight: 900;
+}
+.product-description .description_item{
+    margin-left:4%;
+    margin-right: 4%;
+    line-height: 2;
+}
+/*  */
+/* From Uiverse.io by kamehame-ha */ 
+.item-contact .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 13px;
+    gap: 15px;
+    background-color: #84adea;
+    outline: 3px #cbcbcbd1 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .item-contact .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+    margin-bottom:0;
+  }
+  
+  .item-contact .button svg path {
+    transition: 400ms;
+  }
+  
+  .item-contact .button:hover {
+    background-color: transparent;
+  }
+  
+  .item-contact .button:hover .text {
+    color: #181717;
+  }
+  
+  .item-contact .button:hover svg path {
+    fill: #181717;
+  }
+
